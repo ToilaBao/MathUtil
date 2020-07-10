@@ -9,5 +9,6 @@ This repository contains a simple Java application used to demonstrate the CI - 
 ## Connect me via:
 1. [GitHub](https://github.com/ToilaBao)
 2. [Facebook](https://facebook.com/bao.thien.nguyen.thanh.291)
+3. [Email](thienbaodx2000@gmail.com)
 
 ### © by ToilaBao
