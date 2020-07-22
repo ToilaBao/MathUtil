@@ -23,10 +23,11 @@ public class MathUtil {
         if (n < 0 || n > 15) {
             throw new IllegalArgumentException("Invalid argument. n must be >= 0 & n <= 15");
         }
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+        if (n == 0 || n == 1) {
+            return 1;
         }
-        return result;
+        // đứa nào xài else ở chỗ này trừ điểm
+        return n * computeFactorial(n - 1); // đệ quy nè
+                                            //n! = n * (n-1)!
     }
 }
